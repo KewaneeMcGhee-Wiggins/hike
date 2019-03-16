@@ -11,14 +11,13 @@
 
 .desert{
     background-image: url("desert780x477.jpg");
-    width: 780px;
+    width: 680px;
     height:477px;
+    font-size: 50px;
     display:flex;
     align-items:flex-end;
-    justify-content: center;
+    justify-content: center;   
 }  
-
-
 .green{
     background-image: url("relax420x237.jpg");
     display:flex;
@@ -30,26 +29,50 @@
 }
 .container{
     display:flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
 }
 
-.box{
-    display:flex;
-    flex-direction: column;
-}
-.text{
+.desert{
     display:flex;
     align-items: center;
-    color:white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
 }
-.nav{
-    background-color: black;
+.box{
     display: flex;
-    justify-content:flex-start;
+    flex-direction:column-reverse;
+    align-items: flex-start;
+    justify-content:flex-start; 
 }
-p{
+
+.green{
+    align-items: center;
+    color:white;
+}
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     margin: 5px;
     color:white;
     font-family: 'Muli', sans-serif;
+    list-style: none;
+}
+.lineup{
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    list-style: none;
+}
+h3{
+ display:flex;
+ justify-content: flex-end;   
 }
