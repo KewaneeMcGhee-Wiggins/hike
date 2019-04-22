@@ -29,8 +29,8 @@
 }
 .container{
     display:flex;
-    align-items: flex-start;
-    justify-content: flex-start; 
+    align-items: flex-end;
+    justify-content: flex-end; 
 }
 
 .desert{
@@ -50,26 +50,23 @@
     color:white;
 }
 nav{
-    background-color: grey;
     display: flex;
-    justify-content:space-between;
-    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
     margin:0px;
 }
 
 ul{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    margin: 5px;
+    justify-content: flex-start;
+    margin: 0px;
     color:white;
     font-family: 'Muli', sans-serif;
     list-style: none;
 }
 .lineup{
-    display:flex;
-    align-items: flex-start;
-    justify-content: flex-end;
+    text-align: center;
     list-style: none;
 }
 h3{
